@@ -1,2 +1,1 @@
-# Logo-Sepeda
-![Logo Sepeda](https://www.bing.com/images/search?view=detailV2&ccid=JU9mKSIp&id=AEA8CD57AF063978FB1E721C7E4E93C9CCC2DCC2&thid=OIP.JU9mKSIpUZUVcBGvWXW5OAHaEm&mediaurl=https%3a%2f%2fimg.okezone.com%2fcontent%2f2015%2f11%2f09%2f15%2f1246377%2fyamaha-motors-segera-rilis-dua-sepeda-santai-xeiJ3zqFvd.jpg&exph=497&expw=800&q=gambar+sepeda+santai+waktu+musim+semi&simid=608047235277266790&FORM=IRPRST&ck=D57BF34D66F85077995D064D78606104&selectedIndex=33&itb=0&ajaxhist=0&ajaxserp=0)
+
