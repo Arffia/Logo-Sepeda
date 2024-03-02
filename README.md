@@ -1,5 +1,10 @@
 # Bike Sharing Daily
 
+## Platform yang Digunakan
+```
+Google Colaboratory
+```
+
 ## Setup environment
 ```
 pip install streamlit babel
