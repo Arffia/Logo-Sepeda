@@ -30,6 +30,8 @@ st.title("Bike Sharing Daily")
 st.write("Rata-Rata Jumlah Peminjaman Sepeda Berdasarkan Musim")
 st.bar_chart(average_rentals_by_season.set_index('season'))
 
-st.write("Pengaruh Cuaca terhadap Jumlah Peminjaman Sepeda")
-st.bar_chart(df.groupby('weathersit')['cnt'].mean())
-
+st.write("Korelasi antara Variabel Cuaca dan Jumlah Peminjaman Sepeda")
+correlation_matrix = df[['temp', 'atemp', 'hum', 'windspeed', 'cnt']].corr()
+plt.figure(figsize=(10, 8))
+heatmap = sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt=".2f", linewidths=0.5)
+st.pyplot(heatmap.get_figure())
