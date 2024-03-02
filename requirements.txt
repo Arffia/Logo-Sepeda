@@ -1,6 +1,6 @@
-Babel
-matplotlib
-numpy
-pandas
-seaborn
-streamlit
+Babel: 2.9.1
+Matplotlib: 3.6.2
+NumPy: 1.23.4
+Pandas: 1.5.2
+Seaborn: 1.12.1
+Streamlit: 1.14.0
