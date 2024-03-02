@@ -5,7 +5,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('/content/Bike Sharing Dataset (day).csv')
+sheet_url = 'https://docs.google.com/spreadsheets/d/1rDq_W0XPSLGRKiQIRG027w711TgVGvsjoUm-vCDyyG4/edit#gid=1166575391'
+sheet_url_trf = sheet_url.replace ('/edit#gid=', '/export?format=csv&gid=')
+
+df = pd.read_csv(sheet_url_trf)
 
 df["dteday"] = pd.to_datetime(df["dteday"])
 
